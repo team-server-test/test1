@@ -11,7 +11,8 @@ on:
 jobs:
 
   test:
-    runs-on: [self-hosted, linux]
+    runs-on: 
+      group: Group-runner
     steps:
     - uses: actions/checkout@v3
 
