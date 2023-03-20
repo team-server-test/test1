@@ -10,7 +10,7 @@ on:
 
 jobs:
 
-  test:
+  test1:
     runs-on: 
       group: Group-runner
     steps:
